@@ -1,0 +1,63 @@
+body {
+
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  padding: 2em 1.3em;
+  background: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+
+  position: relative;
+  text-align: center;
+  font-size: 3.4em;
+  color: #5a295b;
+}
+
+.calculadora {
+
+  width: 22em;
+  height: 33.5em;
+  background: #fff;
+  border: 13px solid #5a295b;
+  border-radius: 2em;
+  margin: 4em auto;
+}
+
+.fila {
+
+  margin: .5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5em;
+}
+
+@media screen and (width >= 992px) {
+  
+  h1::before {
+
+    content: "";
+    display: block;
+    position: absolute;
+    left: -8.7em;
+    top: .3em;
+    width: 8em;
+    height: .250em;
+    background: #5a295b;
+  }
+  
+  h1::after {
+  
+    content: "";
+    display: block;
+    position: absolute;
+    left: 7.7em;
+    top: .4em;
+    width: 8em;
+    height: .250em;
+    background: #5a295b;
+  }
+}

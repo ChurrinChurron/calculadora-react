@@ -1,0 +1,22 @@
+.btn-conten {
+
+    height: 2.060em;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.8em;
+    background: #f0d8f0;
+    color: #9e14a0;
+    border-radius: .3em;
+    margin: .1em;
+    cursor: pointer;
+    user-select: none;
+}
+
+.operador {
+
+    background: #9e14a0;
+    color: #fff;
+}

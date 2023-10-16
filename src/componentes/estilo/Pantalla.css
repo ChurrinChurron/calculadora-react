@@ -1,0 +1,15 @@
+.input {
+
+    height: 2em;
+    border-bottom: 13px solid #5a295b;
+    border-radius: .3em .3em 0 0;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    font-size: 4em;
+    background: #816082;
+    color: #fff;
+    padding: 11px 30px 11px 11px;
+}
